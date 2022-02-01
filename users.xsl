@@ -3,9 +3,9 @@
     xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
     <xsl:template match="/">
         <html>
-            <body style="text-align:center">
+            <body style="text-align:center;">
                 <h2>User Database for CDPL Citation Generator</h2>
-                <table border="1">
+                <table border="1" style="align-items:center">
                     <tr bgcolor="#9acd32">
                         <th>cid</th>
                         <th>Name</th>

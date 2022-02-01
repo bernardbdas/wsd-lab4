@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="..//assets/css/dom.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <title>CDPL User Database</title>
+    <script type="javascript" src="../assets/js/domparser.js"></script>
+
+</head>
+
+<body onload="loadxml();">
+    <h1>CDPL User Database</h1>
+    <div style="margin-bottom: 30px;border-radius: 5px;">
+        <input type="number" id="to-del" placeholder="enter index position to delete" />
+        <button onclick="del_node();">Delete</button>
+    </div>
+    <div style="margin-bottom: 30px;">
+
+        <form method="post" class="form" id="form">
+            <div class="form-set">
+                <label for="cid" class="cid">CID : </label>
+                <br />
+                <input type="text" id="cid" placeholder="enter cid*" required="required" />
+                <span></span>
+            </div>
+            <br />
+            <div class="form-set">
+                <label for="name" class="name">Name : </label>
+                <br />
+                <input type="text" id="name" placeholder="enter name*" required="required" />
+                <span></span>
+            </div>
+            <br />
+            <div class="form-set">
+                <label for="age" class="age">Age : </label>
+                <br />
+                <input type="number" id="age" placeholder="enter age*" required="required" />
+                <span></span>
+            </div>
+            <br />
+            <div class="form-set">
+                <label for="nationality" class="nationality">Nationality : </label>
+                <br />
+                <input type="text" id="nationality" placeholder="enter nationality*" required="required" />
+                <span></span>
+            </div>
+            <br />
+            <div class="form-set">
+                <label for="designation" class="designation">Designation : </label>
+                <br />
+                <input type="text" id="designation" placeholder="enter designation*" required="required" />
+                <span></span>
+            </div>
+            <br />
+            <div class="form-set">
+                <label for="email" class="email">Email : </label>
+                <br />
+                <input type="email" id="email" placeholder="enter email*" required="required" />
+                <span></span>
+            </div>
+            <br />
+            <div class="form-set">
+                <label for="contact" class="contact">Phone number : </label>
+                <br />
+                <input type="text" id="contact" placeholder="enter contact number*" required="required" />
+                <span></span>
+            </div>
+            <button onclick="add_node()">Add</button>
+        </form>
+    </div>
+
+    <table id="table"></table>
+
+</body>
+
+</html>
