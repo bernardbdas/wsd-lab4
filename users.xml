@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="xsl" href="users.xsl"?>
 
-<citation_generator xmlns="index.html" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="index.html users.xsd">
+<citation_generator xmlns="" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="index.html users.xsd">
 
     <user>
         <cid>C01</cid>

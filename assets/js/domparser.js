@@ -62,12 +62,3 @@ function add_node() {
     console.log("Record added: " + x.elements[0].value)
     printTable()
 }
-
-//to set cookie
-function setcookie() {}
-
-//to get cookie
-function getcookie() {}
-
-//to clear cookie
-function clearcookie() {}
